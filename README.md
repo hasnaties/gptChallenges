@@ -4,7 +4,7 @@ Certainly! Here are a few technical assessment scenarios and coding challenges t
     Write a Node.js function that fetches data from two different APIs concurrently using
     async/await. Combine and return the results when both requests are complete.
 
-##  Data Structures and Algorithms
+## ✔ Data Structures and Algorithms
     Implement a function to determine if a string has balanced parentheses. For example, 
     "((()))" is balanced, but "(()" is not.
 

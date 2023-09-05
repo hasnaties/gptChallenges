@@ -1,20 +1,4 @@
-const express = require('express');
 const axios = require ('axios');
-
-const router = new express.Router()
-
-// Route-One
-router.get('/one', async (req, res) => {
-    
-    const ipData = await getIpInfo(req.ip);
-    const ageData = await predictAge(req.query.name);
-
-    res.send({
-        name: req.query.name,
-        age: ageData.data.age,
-        city: ipData.data.city
-    });
-});
 
 // -- IP DETAILS
 const getIpInfo = async (ip) => {
@@ -44,4 +28,4 @@ const predictAge = async (firstName) => {
     }
 };
 
-module.exports = router
+module.exports = {getIpInfo, predictAge}
