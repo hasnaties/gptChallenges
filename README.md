@@ -8,7 +8,7 @@ Certainly! Here are a few technical assessment scenarios and coding challenges t
     Implement a function to determine if a string has balanced parentheses. For example, 
     "((()))" is balanced, but "(()" is not.
 
-##  RESTful API Design
+## ✔ RESTful API Design
     Design a simple RESTful API for a todo list application. Include endpoints to create
     read, update, and delete tasks. Implement the necessary Node.js routes and handlers.
 

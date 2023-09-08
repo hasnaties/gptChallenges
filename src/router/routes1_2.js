@@ -6,7 +6,7 @@ const router = new express.Router()
 
 // Route-One
 
-router.get('/one/:name', async (req, res) => {
+router.get('/api/one/:name', async (req, res) => {
     
     const ipData = await getIpInfo(req.ip);
     const ageData = await predictAge(req.params.name);
@@ -20,7 +20,7 @@ router.get('/one/:name', async (req, res) => {
 
 // Route-Two
 
-router.get('/two/:str', async (req, res) => {
+router.get('/api/two/:str', async (req, res) => {
     
     const result = isBalanced(req.params.str)
 
