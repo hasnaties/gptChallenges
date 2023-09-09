@@ -4,12 +4,22 @@ const note = require('./note');
 const { Schema } = mongoose;
 
 const userSchema = new Schema({
-  name: String,
-  email: String,
-  password: String,
-  notes: [note]
+  name: {
+    type: String,
+    trim: true
+  },
+  email: {
+    type: String,
+    unique: true,
+    trim: true,
+    required: true
+  },
+  password: {
+    type: String,
+    required: true
+  }
 })
 
-const user = mongoose.model("user", userSchema);
+const User = mongoose.model("User", userSchema);
 
-module.exports = user;
+module.exports = User;
