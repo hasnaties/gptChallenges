@@ -12,7 +12,7 @@ Certainly! Here are a few technical assessment scenarios and coding challenges t
     Design a simple RESTful API for a todo list application. Include endpoints to create
     read, update, and delete tasks. Implement the necessary Node.js routes and handlers.
 
-##  Database Interaction
+## ✔ Database Interaction
     Create a Node.js script that connects to a MongoDB database using Mongoose. Define a
     schema for a "User" collection and perform basic CRUD operations.
 

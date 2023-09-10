@@ -3,8 +3,7 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const noteSchema = new Schema({
-  id: uuid,
-  
+
   title: {
     type: String,
     trim: true
@@ -20,9 +19,11 @@ const noteSchema = new Schema({
     ref: 'Note',
     required: true
   },
-
-  timestamps: true
-})
+},
+  {
+    timestamps: true
+  }
+)
 
 const Note = mongoose.model("Note", noteSchema);
 
