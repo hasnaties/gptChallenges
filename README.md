@@ -16,7 +16,7 @@ Certainly! Here are a few technical assessment scenarios and coding challenges t
     Create a Node.js script that connects to a MongoDB database using Mongoose. Define a
     schema for a "User" collection and perform basic CRUD operations.
 
-##  Error Handling
+## ✔ Error Handling
     Write a function that reads a JSON file using the fs module in Node.js. Handle
     potential errors, such as file not found or invalid JSON format.
 
