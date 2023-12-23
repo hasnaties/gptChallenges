@@ -20,9 +20,9 @@ Certainly! Here are a few technical assessment scenarios and coding challenges t
     Write a function that reads a JSON file using the fs module in Node.js. Handle
     potential errors, such as file not found or invalid JSON format.
 
-##  Testing
+## ✔ Testing
     Develop a function to calculate the factorial of a number. Write unit tests for this
-    function using a testing framework like Mocha and Chai.
+    function using a testing framework like Mocha and Chai. (I used the Jest.)
 
 ##  Performance Optimization
     Given an array of integers, write a function to find the maximum product of any three
