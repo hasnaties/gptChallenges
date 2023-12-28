@@ -2,7 +2,7 @@ const express = require('express');
 const { getIpInfo, predictAge } = require('../lib/one')
 const isBalanced = require('../lib/two')
 
-const router = new express.Router()
+const router = new express.Router();
 
 // Route-One
 

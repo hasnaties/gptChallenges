@@ -3,6 +3,7 @@ const path = require('path');
 const router1_2 = require('./router/routes1_2');
 const route3_note = require('./router/route3_note');
 const route4_user = require('./router/route4_user');
+const routerPerfOpt = require('./router/routePerfOpt');
 
 require('dotenv').config();
 require('./mongoose/connectDatabase');
@@ -16,6 +17,7 @@ app.use(express.json());
 app.use(router1_2);
 app.use(route3_note);
 app.use(route4_user);
+app.use(routerPerfOpt);
 
 app.listen(PORT= 3000, () => {
     console.log(`server is up on port: ${PORT}`);

@@ -24,7 +24,7 @@ Certainly! Here are a few technical assessment scenarios and coding challenges t
     Develop a function to calculate the factorial of a number. Write unit tests for this
     function using a testing framework like Mocha and Chai. (I used the Jest.)
 
-##  Performance Optimization
+## ✔ Performance Optimization
     Given an array of integers, write a function to find the maximum product of any three
     integers. Optimize your solution for time complexity.
 
